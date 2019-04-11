@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+package com.betpawa.wallet;
+
+enum Currency {
+    EUR = 0;
+    USD = 1;
+    GBP = 2;
+}
+
+message TransactionRequest {
+    int64 userId = 1;
+    double amount = 2;
+    Currency currency = 3;
+}
+
+message TransactionResponse {    
+}
+
+message BalanceRequest {
+    int64 userId = 1;
+}
+
+message BalanceResponse {
+    map<string, double> balanceByCurrency = 1;
+}
+
+service WalletService {
+    rpc deposit(TransactionRequest) returns (TransactionResponse);
+    rpc withdraw(TransactionRequest) returns (TransactionResponse);
+    rpc balance(BalanceRequest) returns (BalanceResponse);
+}

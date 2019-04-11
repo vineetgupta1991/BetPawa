@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.betpawa.wallet.server.service.WalletServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.betpawa.wallet.server.service.WalletServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.betpawa.wallet.server.service.html">com.betpawa.wallet.server.service</a> &gt; WalletServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.393s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testScenario1</td>
+<td class="success">0.194s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testScenario2</td>
+<td class="success">0.121s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testScenario3</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testScenario4</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testScenario5</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testScenario6</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testScenario7</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testScenario8</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>00:46:34.654 [Test worker] INFO  c.betpawa.wallet.server.WalletServer - Server started, listening on 0
+00:46:34.856 [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+00:46:35.105 [Test worker] DEBUG o.h.jpa.HibernatePersistenceProvider - Located and parsed 1 persistence units; checking each
+00:46:35.106 [Test worker] DEBUG o.h.jpa.HibernatePersistenceProvider - Checking persistence-unit [name=postgres_pu, explicit-provider=null] against incoming persistence unit name [postgres_pu]
+00:46:35.108 [Test worker] DEBUG o.h.jpa.boot.spi.ProviderChecker - No PersistenceProvider explicitly requested, assuming Hibernate
+00:46:35.119 [Test worker] DEBUG o.h.jpa.internal.util.LogHelper - PersistenceUnitInfo [
+	name: postgres_pu
+	persistence provider classname: null
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/Marriott/Workspace/BetPawa/Betpawa-Wallet/Betpawa-Wallet-Server/build/resources/main/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names [
+		com.betpawa.wallet.server.model.Account]
+	Mapping files names []
+	Properties [
+		hibernate.c3p0.timeout: 300
+		hibernate.order_updates: true
+		hibernate.connection.driver_class: org.postgresql.Driver
+		hibernate.c3p0.max_statements: 50
+		hibernate.c3p0.max_size: 20
+		hibernate.dialect: org.hibernate.dialect.PostgreSQL95Dialect
+		hibernate.c3p0.idle_test_period: 3000
+		hibernate.c3p0.min_size: 5
+		hibernate.jdbc.batch_size: 15
+		hibernate.connection.username: wallet_user
+		hibernate.connection.url: jdbc:postgresql://localhost:5432/wallet
+		hibernate.connection.password: wallet_pass
+		hibernate.order_inserts: true
+		hibernate.jdbc.batch_versioned_data: true]
+00:46:35.131 [Test worker] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+00:46:35.136 [Test worker] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+00:46:35.144 [Test worker] DEBUG o.h.i.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+00:46:35.290 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+00:46:35.294 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+00:46:35.552 [Test worker] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+00:46:35.599 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+00:46:35.601 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+00:46:35.644 [Test worker] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+00:46:35.714 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -&gt; org.hibernate.type.BooleanType@295a9a64
+00:46:35.716 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -&gt; org.hibernate.type.BooleanType@295a9a64
+00:46:35.723 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -&gt; org.hibernate.type.BooleanType@295a9a64
+00:46:35.724 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -&gt; org.hibernate.type.NumericBooleanType@f0d6710
+00:46:35.725 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -&gt; org.hibernate.type.TrueFalseType@4a736078
+00:46:35.727 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -&gt; org.hibernate.type.YesNoType@75818f88
+00:46:35.729 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -&gt; org.hibernate.type.ByteType@254cccda
+00:46:35.730 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -&gt; org.hibernate.type.ByteType@254cccda
+00:46:35.730 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -&gt; org.hibernate.type.ByteType@254cccda
+00:46:35.733 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character -&gt; org.hibernate.type.CharacterType@7d978315
+00:46:35.734 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char -&gt; org.hibernate.type.CharacterType@7d978315
+00:46:35.734 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -&gt; org.hibernate.type.CharacterType@7d978315
+00:46:35.737 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -&gt; org.hibernate.type.ShortType@76160ba6
+00:46:35.737 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -&gt; org.hibernate.type.ShortType@76160ba6
+00:46:35.738 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -&gt; org.hibernate.type.ShortType@76160ba6
+00:46:35.740 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration integer -&gt; org.hibernate.type.IntegerType@77920aae
+00:46:35.745 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration int -&gt; org.hibernate.type.IntegerType@77920aae
+00:46:35.746 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -&gt; org.hibernate.type.IntegerType@77920aae
+00:46:35.749 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -&gt; org.hibernate.type.LongType@475d4ac0
+00:46:35.750 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -&gt; org.hibernate.type.LongType@475d4ac0
+00:46:35.752 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -&gt; org.hibernate.type.LongType@475d4ac0
+00:46:35.755 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -&gt; org.hibernate.type.FloatType@66f89b76
+00:46:35.755 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -&gt; org.hibernate.type.FloatType@66f89b76
+00:46:35.755 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -&gt; org.hibernate.type.FloatType@66f89b76
+00:46:35.758 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -&gt; org.hibernate.type.DoubleType@46186d44
+00:46:35.758 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -&gt; org.hibernate.type.DoubleType@46186d44
+00:46:35.758 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -&gt; org.hibernate.type.DoubleType@46186d44
+00:46:35.760 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -&gt; org.hibernate.type.BigDecimalType@39890c71
+00:46:35.761 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -&gt; org.hibernate.type.BigDecimalType@39890c71
+00:46:35.763 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -&gt; org.hibernate.type.BigIntegerType@cb1f99d
+00:46:35.764 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -&gt; org.hibernate.type.BigIntegerType@cb1f99d
+00:46:35.766 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration string -&gt; org.hibernate.type.StringType@66438916
+00:46:35.766 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -&gt; org.hibernate.type.StringType@66438916
+00:46:35.767 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -&gt; org.hibernate.type.StringNVarcharType@49d2be70
+00:46:35.769 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -&gt; org.hibernate.type.CharacterNCharType@30b12a10
+00:46:35.773 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration url -&gt; org.hibernate.type.UrlType@60c639c1
+00:46:35.773 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -&gt; org.hibernate.type.UrlType@60c639c1
+00:46:35.775 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -&gt; org.hibernate.type.DurationType@585676a2
+00:46:35.776 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -&gt; org.hibernate.type.DurationType@585676a2
+00:46:35.800 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Instant -&gt; org.hibernate.type.InstantType@559f9f72
+00:46:35.802 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -&gt; org.hibernate.type.InstantType@559f9f72
+00:46:35.805 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -&gt; org.hibernate.type.LocalDateTimeType@37207ed
+00:46:35.806 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -&gt; org.hibernate.type.LocalDateTimeType@37207ed
+00:46:35.809 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -&gt; org.hibernate.type.LocalDateType@65c10f06
+00:46:35.810 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -&gt; org.hibernate.type.LocalDateType@65c10f06
+00:46:35.813 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -&gt; org.hibernate.type.LocalTimeType@31c8e4aa
+00:46:35.813 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -&gt; org.hibernate.type.LocalTimeType@31c8e4aa
+00:46:35.816 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -&gt; org.hibernate.type.OffsetDateTimeType@7846f59e
+00:46:35.816 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -&gt; org.hibernate.type.OffsetDateTimeType@7846f59e
+00:46:35.819 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -&gt; org.hibernate.type.OffsetTimeType@581ef21a
+00:46:35.820 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -&gt; org.hibernate.type.OffsetTimeType@581ef21a
+00:46:35.826 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -&gt; org.hibernate.type.ZonedDateTimeType@62fa7266
+00:46:35.826 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -&gt; org.hibernate.type.ZonedDateTimeType@62fa7266
+00:46:35.829 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration date -&gt; org.hibernate.type.DateType@6d0a9963
+00:46:35.830 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -&gt; org.hibernate.type.DateType@6d0a9963
+00:46:35.832 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration time -&gt; org.hibernate.type.TimeType@5397c9f7
+00:46:35.833 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -&gt; org.hibernate.type.TimeType@5397c9f7
+00:46:35.836 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -&gt; org.hibernate.type.TimestampType@59c3ea27
+00:46:35.836 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -&gt; org.hibernate.type.TimestampType@59c3ea27
+00:46:35.837 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -&gt; org.hibernate.type.TimestampType@59c3ea27
+00:46:35.840 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -&gt; org.hibernate.type.DbTimestampType@30b4d907
+00:46:35.843 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -&gt; org.hibernate.type.CalendarType@4a77398a
+00:46:35.843 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -&gt; org.hibernate.type.CalendarType@4a77398a
+00:46:35.844 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -&gt; org.hibernate.type.CalendarType@4a77398a
+00:46:35.845 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -&gt; org.hibernate.type.CalendarDateType@29456ab4
+00:46:35.847 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -&gt; org.hibernate.type.LocaleType@da39e1c
+00:46:35.848 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -&gt; org.hibernate.type.LocaleType@da39e1c
+00:46:35.849 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -&gt; org.hibernate.type.CurrencyType@74507df5
+00:46:35.850 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -&gt; org.hibernate.type.CurrencyType@74507df5
+00:46:35.852 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -&gt; org.hibernate.type.TimeZoneType@67bb1319
+00:46:35.852 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -&gt; org.hibernate.type.TimeZoneType@67bb1319
+00:46:35.854 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -&gt; org.hibernate.type.ClassType@50eb826d
+00:46:35.854 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -&gt; org.hibernate.type.ClassType@50eb826d
+00:46:35.856 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -&gt; org.hibernate.type.UUIDBinaryType@471a7658
+00:46:35.857 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -&gt; org.hibernate.type.UUIDBinaryType@471a7658
+00:46:35.858 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -&gt; org.hibernate.type.UUIDCharType@4f136741
+00:46:35.860 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -&gt; org.hibernate.type.BinaryType@4d893215
+00:46:35.860 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -&gt; org.hibernate.type.BinaryType@4d893215
+00:46:35.860 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -&gt; org.hibernate.type.BinaryType@4d893215
+00:46:35.863 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -&gt; org.hibernate.type.WrapperBinaryType@7e2e1364
+00:46:35.863 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -&gt; org.hibernate.type.WrapperBinaryType@7e2e1364
+00:46:35.863 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -&gt; org.hibernate.type.WrapperBinaryType@7e2e1364
+00:46:35.865 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -&gt; org.hibernate.type.RowVersionType@459f60b9
+00:46:35.866 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -&gt; org.hibernate.type.ImageType@3fef3efe
+00:46:35.868 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -&gt; org.hibernate.type.CharArrayType@1f26d260
+00:46:35.868 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -&gt; org.hibernate.type.CharArrayType@1f26d260
+00:46:35.869 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -&gt; org.hibernate.type.CharArrayType@1f26d260
+00:46:35.871 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -&gt; org.hibernate.type.CharacterArrayType@61b42f88
+00:46:35.872 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -&gt; org.hibernate.type.CharacterArrayType@61b42f88
+00:46:35.872 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -&gt; org.hibernate.type.CharacterArrayType@61b42f88
+00:46:35.873 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -&gt; org.hibernate.type.TextType@1165dab3
+00:46:35.874 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -&gt; org.hibernate.type.NTextType@d16294b
+00:46:35.944 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -&gt; org.hibernate.type.BlobType@68587177
+00:46:35.944 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -&gt; org.hibernate.type.BlobType@68587177
+00:46:35.945 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -&gt; org.hibernate.type.MaterializedBlobType@38c76106
+00:46:35.948 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -&gt; org.hibernate.type.ClobType@18d767c2
+00:46:35.948 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -&gt; org.hibernate.type.ClobType@18d767c2
+00:46:35.951 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -&gt; org.hibernate.type.NClobType@234ed49c
+00:46:35.952 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -&gt; org.hibernate.type.NClobType@234ed49c
+00:46:35.953 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -&gt; org.hibernate.type.MaterializedClobType@4934365
+00:46:35.954 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -&gt; org.hibernate.type.MaterializedNClobType@560a0646
+00:46:35.956 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -&gt; org.hibernate.type.SerializableType@36b42102
+00:46:35.962 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -&gt; org.hibernate.type.ObjectType@1eb21354
+00:46:35.962 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -&gt; org.hibernate.type.ObjectType@1eb21354
+00:46:35.963 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -&gt; org.hibernate.type.AdaptedImmutableType@344a74e7
+00:46:35.964 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -&gt; org.hibernate.type.AdaptedImmutableType@3a6cf989
+00:46:35.964 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -&gt; org.hibernate.type.AdaptedImmutableType@1397be13
+00:46:35.964 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -&gt; org.hibernate.type.AdaptedImmutableType@3d091db6
+00:46:35.965 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -&gt; org.hibernate.type.AdaptedImmutableType@5a03bbbc
+00:46:35.965 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -&gt; org.hibernate.type.AdaptedImmutableType@77eb1c4
+00:46:35.966 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -&gt; org.hibernate.type.AdaptedImmutableType@2937f01e
+00:46:35.966 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -&gt; org.hibernate.type.AdaptedImmutableType@5ca6bc23
+00:46:35.991 [Test worker] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@a2972b3] into BootstrapContext; was [null]
+00:46:35.993 [Test worker] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@42d42736] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@ac56758]
+00:46:36.026 [Test worker] DEBUG o.h.b.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [null]
+00:46:36.027 [Test worker] DEBUG o.h.b.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(null) [was null]
+00:46:36.058 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -&gt; [org.hibernate.id.UUIDGenerator]
+00:46:36.060 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -&gt; [org.hibernate.id.GUIDGenerator]
+00:46:36.062 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -&gt; [org.hibernate.id.UUIDHexGenerator]
+00:46:36.063 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -&gt; [org.hibernate.id.UUIDHexGenerator]
+00:46:36.064 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -&gt; [org.hibernate.id.Assigned]
+00:46:36.069 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -&gt; [org.hibernate.id.IdentityGenerator]
+00:46:36.071 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -&gt; [org.hibernate.id.SelectGenerator]
+00:46:36.073 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -&gt; [org.hibernate.id.enhanced.SequenceStyleGenerator]
+00:46:36.076 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -&gt; [org.hibernate.id.SequenceHiLoGenerator]
+00:46:36.077 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -&gt; [org.hibernate.id.IncrementGenerator]
+00:46:36.078 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -&gt; [org.hibernate.id.ForeignGenerator]
+00:46:36.079 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -&gt; [org.hibernate.id.SequenceIdentityGenerator]
+00:46:36.080 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -&gt; [org.hibernate.id.enhanced.SequenceStyleGenerator]
+00:46:36.082 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -&gt; [org.hibernate.id.enhanced.TableGenerator]
+00:46:36.094 [Test worker] INFO  o.h.c.i.C3P0ConnectionProvider - HHH010002: C3P0 using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/wallet
+00:46:36.095 [Test worker] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001001: Connection properties: {user=wallet_user, password=****}
+00:46:36.095 [Test worker] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+00:46:36.454 [Test worker] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001007: JDBC isolation level: &lt;unknown&gt;
+00:46:37.288 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database -&gt;
+       name : PostgreSQL
+    version : 11.2
+      major : 11
+      minor : 2
+00:46:37.289 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver -&gt;
+       name : PostgreSQL JDBC Driver
+    version : 42.2.5
+      major : 42
+      minor : 2
+00:46:37.290 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+00:46:37.365 [Test worker] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+00:46:37.739 [Test worker] DEBUG o.h.e.j.e.i.DefaultSchemaNameResolver - Unable to use Java 1.7 Connection#getSchema
+00:46:37.749 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentImpl - Unable to resolve connection default schema
+org.hibernate.HibernateException: Use of DefaultSchemaNameResolver requires Dialect to provide the proper SQL statement/command but provided Dialect [org.hibernate.dialect.PostgreSQL95Dialect] did not return anything from Dialect#getCurrentSchemaCommand
+	at org.hibernate.engine.jdbc.env.internal.DefaultSchemaNameResolver$SchemaNameResolverFallbackDelegate.resolveSchemaName(DefaultSchemaNameResolver.java:100) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.DefaultSchemaNameResolver.resolveSchemaName(DefaultSchemaNameResolver.java:76) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentImpl.determineCurrentSchemaName(JdbcEnvironmentImpl.java:298) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentImpl.&lt;init&gt;(JdbcEnvironmentImpl.java:232) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:114) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:94) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.&lt;init&gt;(InFlightMetadataCollectorImpl.java:179) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:119) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:904) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:56) [hibernate-core-5.3.7.Final.jar:5.3.7.Final]
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79) [javax.persistence-api-2.2.jar:2.2]
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:54) [javax.persistence-api-2.2.jar:2.2]
+	at com.betpawa.wallet.server.DbConnection.&lt;clinit&gt;(DbConnection.java:17) [main/:na]
+	at com.betpawa.wallet.server.dao.AccountDAOImpl.saveOrUpdate(AccountDAOImpl.java:74) [main/:na]
+	at com.betpawa.wallet.server.WalletServerTest.setUpClass(WalletServerTest.java:51) [test/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125) [grpc-testing-1.16.1.jar:1.16.1]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.10.2.jar:4.10.2]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_66]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_66]
+00:46:37.756 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+00:46:37.778 [Test worker] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+00:46:37.790 [Test worker] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+00:46:37.796 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -&gt; org.hibernate.type.PostgresUUIDType@37161427
+00:46:37.797 [Test worker] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -&gt; org.hibernate.type.PostgresUUIDType@37161427
+00:46:37.797 [Test worker] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@471a7658
+00:46:37.801 [Test worker] DEBUG o.h.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@203bd40b] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@e8192fb]
+00:46:37.946 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.betpawa.wallet.server.model.Account
+00:46:38.003 [Test worker] DEBUG o.h.cfg.annotations.QueryBinder - Binding named query: Account.findAllByUserId =&gt; SELECT a FROM Account a WHERE a.userId = :userId
+00:46:38.005 [Test worker] DEBUG o.h.cfg.annotations.QueryBinder - Binding named query: Account.findAllByUserIdAndCurrency =&gt; SELECT a FROM Account a WHERE a.userId = :userId AND a.currencyCode = :currencyCode
+00:46:38.006 [Test worker] DEBUG o.h.cfg.annotations.QueryBinder - Binding named query: Account.deleteByUserId =&gt; DELETE FROM Account a WHERE a.userId = :userId
+00:46:38.031 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+00:46:38.048 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name Account
+00:46:38.063 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity com.betpawa.wallet.server.model.Account on table account
+00:46:38.162 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(account), mappingColumn=id, insertable=true, updatable=true, unique=false}
+00:46:38.173 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+00:46:38.205 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.betpawa.wallet.server.model.Account:id]
+00:46:38.210 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+00:46:38.216 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+00:46:38.226 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, my_seq, ...)
+00:46:38.229 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(account), mappingColumn=balance, insertable=true, updatable=true, unique=false}
+00:46:38.229 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property balance with lazy=false
+00:46:38.230 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.betpawa.wallet.server.model.Account:balance]
+00:46:38.230 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for balance
+00:46:38.230 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property balance
+00:46:38.231 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(account), mappingColumn=currency_code, insertable=true, updatable=true, unique=false}
+00:46:38.231 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property currencyCode with lazy=false
+00:46:38.231 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.betpawa.wallet.server.model.Account:currencyCode]
+00:46:38.232 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for currencyCode
+00:46:38.232 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property currencyCode
+00:46:38.232 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(account), mappingColumn=user_id, insertable=true, updatable=true, unique=false}
+00:46:38.233 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property userId with lazy=false
+00:46:38.233 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.betpawa.wallet.server.model.Account:userId]
+00:46:38.233 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for userId
+00:46:38.233 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property userId
+00:46:38.234 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(account), mappingColumn=version, insertable=true, updatable=true, unique=false}
+00:46:38.234 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property version with lazy=false
+00:46:38.234 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.betpawa.wallet.server.model.Account:version]
+00:46:38.235 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for version
+00:46:38.235 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property version
+00:46:38.256 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+00:46:38.257 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for balance
+00:46:38.257 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for currencyCode
+00:46:38.258 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for userId
+00:46:38.260 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for version
+00:46:38.267 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [account]
+00:46:38.380 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+00:46:38.383 [Test worker] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+00:46:38.384 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+00:46:38.385 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+00:46:38.386 [Test worker] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+00:46:38.387 [Test worker] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+00:46:38.391 [Test worker] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+00:46:38.392 [Test worker] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+00:46:38.392 [Test worker] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+00:46:38.394 [Test worker] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+00:46:38.395 [Test worker] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+00:46:38.397 [Test worker] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: null
+00:46:38.397 [Test worker] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+00:46:38.397 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: enabled
+00:46:38.397 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: enabled
+00:46:38.397 [Test worker] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+00:46:38.398 [Test worker] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+00:46:38.398 [Test worker] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+00:46:38.398 [Test worker] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+00:46:38.399 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+00:46:38.399 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+00:46:38.399 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+00:46:38.399 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+00:46:38.400 [Test worker] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+00:46:38.401 [Test worker] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+00:46:38.402 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+00:46:38.403 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+00:46:38.404 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+00:46:38.405 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+00:46:38.406 [Test worker] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+00:46:38.407 [Test worker] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+00:46:38.408 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+00:46:38.409 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+00:46:38.410 [Test worker] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+00:46:38.431 [Test worker] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+00:46:38.433 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : 
+00:46:38.434 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : 
+00:46:38.436 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : 
+00:46:38.436 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : 
+00:46:38.614 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+00:46:38.615 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQL95Dialect, org.gradle.test.worker=2, hibernate.c3p0.min_size=5, java.class.path=D:\Marriott\Workspace\BetPawa\Betpawa-Wallet\Betpawa-Wallet-Server\build\classes\java\test;D:\Marriott\Workspace\BetPawa\Betpawa-Wallet\Betpawa-Wallet-Server\build\resources\test;D:\Marriott\Workspace\BetPawa\Betpawa-Wallet\Betpawa-Wallet-Server\build\classes\java\main;D:\Marriott\Workspace\BetPawa\Betpawa-Wallet\Betpawa-Wallet-Server\build\resources\main;D:\Marriott\Workspace\BetPawa\Betpawa-Wallet\Betpawa-Wallet-Proto\build\libs\Betpawa-Wallet-Proto-1.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\javax.transaction\jta\1.1\2ca09f0b36ca7d71b762e14ea2ff09d5eac57558\jta-1.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\c3p0\c3p0\0.9.1.2\4ea71601f844c4b90d22195bbdb58979281bb8b6\c3p0-0.9.1.2.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-entitymanager\5.3.7.Final\fe5e1d601fe1dfaab79cec22a23ee72c567fcbe9\hibernate-entitymanager-5.3.7.Final.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-c3p0\5.3.7.Final\17fe1a95b38c1b55bc58fd442def496458a47710\hibernate-c3p0-5.3.7.Final.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.0.13\6b56ec752b42ccfa1415c0361fb54b1ed7ca3db6\logback-classic-1.0.13.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.9\872ec63b41181e29ad5a3723f1417356e2d2c0f2\slf4j-api-1.7.9.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.0.13\dc6e6ce937347bd4d990fc89f4ceb469db53e45e\logback-core-1.0.13.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.postgresql\postgresql\42.2.5\951b7eda125f3137538a94e2cbdcf744088ad4c2\postgresql-42.2.5.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-testing\1.16.1\89b82a1748080f120908519fe30fd9931ade2bbe\grpc-testing-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-alts\1.16.1\3a3156cb927214eeb15344b9bf5d23be287e3d49\grpc-alts-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-grpclb\1.16.1\3aea8a3f6a1b83c2ed3b721c2ab28130e29aa71a\grpc-grpclb-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-protobuf\1.16.1\1f8ac89924b5de4a94058ae26c9de28f8eff49dd\grpc-protobuf-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.api.grpc\proto-google-common-protos\1.12.0\1140cc74df039deb044ed0e320035e674dc13062\proto-google-common-protos-1.12.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java-util\3.6.1\35f62815e87c32b01bf1ed8c5aa3f9e33a08c2f3\protobuf-java-util-3.6.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-netty-shaded\1.16.1\efd17129ac78cad0aef77825857e48567477bcc7\grpc-netty-shaded-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-stub\1.16.1\f3c30248564608791407bf43b1d4db52a80e6c36\grpc-stub-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.3.7.Final\f87c5c1bbfc638309824140e68dfaaeb1bb479f3\hibernate-core-5.3.7.Final.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.0.4.Final\965a18fdf939ee75e41f7918532d37b3a8350535\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.1\3dce5dbb3571aa820c677fadd8349bfa8f00c199\dom4j-2.1.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.8.17\9a36bc0f6eb9f941da0526ad89c4fb4b8ab580f0\byte-buddy-1.8.17.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.mchange\c3p0\0.9.5.2\5f86cb6130bc6e8475615ed82d5b5e6fb226a86a\c3p0-0.9.5.2.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-protobuf-lite\1.16.1\3d03ee1e5e292f2312d7ca99c00ddcf9d0544c35\grpc-protobuf-lite-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-auth\1.16.1\e38138938a930a027f3808b3329612903f716a29\grpc-auth-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-core\1.16.1\8a938ece0ad8d8bf77d790c502ba51ebec114aa9\grpc-core-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\1.9.5\c3264abeea62c4d2f367e21484fbb40c7e256393\mockito-core-1.9.5.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.6.1\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\protobuf-java-3.6.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\26.0-android\ef69663836b339db335fde0df06fb3cd84e3742b\guava-26.0-android.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.5\6c6c702c89bfff3cd9e80b04d668c5e190d588c6\commons-lang3-3.5.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.auth\google-auth-library-oauth2-http\0.9.0\4e6152c3aead24148627e84f5651e79698c00d9\google-auth-library-oauth2-http-0.9.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.23.1-GA\c072c13dcb7f705471c40bafb1536171df850ab2\javassist-3.23.1-GA.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.0.5.Final\7060f67764565b9ee9d467e3ed0cb8a9c601b23a\jandex-2.0.5.Final.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.4\3d5f48f10bbe4eb7bd862f10c0583be2e0053c6\classmate-1.3.4.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.mchange\mchange-commons-java\0.2.11\2a6a6c1fe25f28f5a073171956ce6250813467ef\mchange-commons-java-0.2.11.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-context\1.16.1\4adb6d55045b21cb384bc4498d4a7593f6cab8d7\grpc-context-1.16.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.opencensus\opencensus-contrib-grpc-metrics\0.12.3\a4c7ff238a91b901c8b459889b6d0d7a9d889b4d\opencensus-contrib-grpc-metrics-0.12.3.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\io.opencensus\opencensus-api\0.12.3\743f074095f29aa985517299545e72cc99c87de0\opencensus-api-0.12.3.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.2.0\88e3c593e9b3586e1c6177f89267da6fc6986f0c\error_prone_annotations-2.2.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.17\f97ce6decaea32b36101e37979f8b647f00681fb\animal-sniffer-annotations-1.17.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\1.0\9b473564e792c2bdf1449da1f0b1b5bff9805704\objenesis-1.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-compat-qual\2.5.2\dc0b20906c9e4b9724af29d11604efa574066892\checker-compat-qual-2.5.2.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.auth\google-auth-library-credentials\0.9.0\8e2b181feff6005c9cbc6f5c1c1e2d3ec9138d46\google-auth-library-credentials-0.9.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.0.1\1d7d28fa738bdbfe4fbd895d9486308999bdf440\httpclient-4.0.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.0.1\e813b8722c387b22e1adccf7914729db09bcb4a9\httpcore-4.0.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.1\5043bfebc3db072ed80fbd362e7caf00e885d8ae\commons-logging-1.1.1.jar;C:\Users\vingupta3\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.3\fd32786786e2adb664d5ecc965da47629dca14ba\commons-codec-1.3.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, hibernate.order_inserts=true, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Calcutta, os.name=Windows 10, java.vm.specification.version=1.8, hibernate.jdbc.batch_versioned_data=true, hibernate.order_updates=true, sun.java.launcher=SUN_STANDARD, user.country=US, hibernate.jdbc.batch_size=15, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_66\jre\bin, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2', sun.cpu.endian=little, user.home=C:\Users\vingupta3, hibernate.c3p0.max_statements=50, user.language=en, java.specification.vendor=Oracle Corporation, org.gradle.native=false, java.home=C:\Program Files\Java\jdk1.8.0_66\jre, file.separator=\, line.separator=
+, hibernate.c3p0.timeout=300, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.c3p0.max_size=20, java.runtime.version=1.8.0_66-b18, user.name=vingupta3, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:postgresql://localhost:5432/wallet, hibernate.ejb.persistenceUnitName=postgres_pu, file.encoding=windows-1252, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\VINGUP~1\AppData\Local\Temp\, java.version=1.8.0_66, user.dir=D:\Marriott\Workspace\BetPawa\Betpawa-Wallet\Betpawa-Wallet-Server, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@669f133, java.library.path=C:\Program Files\Java\jdk1.8.0_66\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\activator-dist-1.3.7;C:\Program Files\SBT\sbt-0.13.9\sbt\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\gradle-4.10.2-all\gradle-4.10.2\bin;C:\Users\vingupta3\AppData\Local\Microsoft\WindowsApps;C:\Users\vingupta3\AppData\Roaming\npm;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.66-b18, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, java.class.version=52.0}
+00:46:38.645 [Test worker] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+00:46:38.656 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+00:46:38.656 [Test worker] DEBUG o.h.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@203bd40b] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1f539ce2]
+00:46:38.740 [Test worker] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.betpawa.wallet.server.model.Account] is safe
+00:46:38.741 [Test worker] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.betpawa.wallet.server.model.Account
+00:46:38.767 [Test worker] DEBUG o.h.b.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.betpawa.wallet.server.model.Account] is safe
+00:46:38.768 [Test worker] DEBUG o.h.b.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.betpawa.wallet.server.model.Account
+00:46:39.058 [Test worker] DEBUG o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.betpawa.wallet.server.model.Account
+00:46:39.058 [Test worker] DEBUG o.h.p.entity.AbstractEntityPersister -  Version select: select version from account where id =?
+00:46:39.058 [Test worker] DEBUG o.h.p.entity.AbstractEntityPersister -  Snapshot select: select account_.id, account_.balance as balance2_0_, account_.currency_code as currency3_0_, account_.user_id as user_id4_0_, account_.version as version5_0_ from account account_ where account_.id=?
+00:46:39.058 [Test worker] DEBUG o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into account (balance, currency_code, user_id, version, id) values (?, ?, ?, ?, ?)
+00:46:39.059 [Test worker] DEBUG o.h.p.entity.AbstractEntityPersister -  Update 0: update account set balance=?, currency_code=?, user_id=?, version=? where id=? and version=?
+00:46:39.059 [Test worker] DEBUG o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from account where id=? and version=?
+00:46:39.096 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@369b781]
+00:46:39.102 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : balance
+00:46:39.103 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : currencyCode
+00:46:39.103 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : userId
+00:46:39.103 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : version
+00:46:39.103 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+00:46:39.127 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+00:46:39.133 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.betpawa.wallet.server.model.Account)
+    - Returns
+       - EntityReturnImpl(entity=com.betpawa.wallet.server.model.Account, querySpaceUid=&lt;gen:0&gt;, path=com.betpawa.wallet.server.model.Account)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=&lt;gen:0&gt;, entity=com.betpawa.wallet.server.model.Account)
+          - SQL table alias mapping - account0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+00:46:39.136 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.betpawa.wallet.server.model.Account [NONE]: select account0_.id as id1_0_0_, account0_.balance as balance2_0_0_, account0_.currency_code as currency3_0_0_, account0_.user_id as user_id4_0_0_, account0_.version as version5_0_0_ from account account0_ where account0_.id=?
+00:46:39.136 [Test worker] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = &lt;gen:0&gt; -&gt; org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@505847bc]
+00:46:39.136 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : balance
+00:46:39.136 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : currencyCode
+00:46:39.136 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : userId
+00:46:39.136 [Test worker] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : version
+00:46:39.137 [Test worker] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+00:46:39.137 [Test worker] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace &lt;gen:0&gt;
+00:46:39.138 [Test worker] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=com.betpawa.wallet.server.model.Account)
+    - Returns
+       - EntityReturnImpl(entity=com.betpawa.wallet.server.model.Account, querySpaceUid=&lt;gen:0&gt;, path=com.betpawa.wallet.server.model.Account)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=&lt;gen:0&gt;, entity=com.betpawa.wallet.server.model.Account)
+          - SQL table alias mapping - account0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+00:46:39.138 [Test worker] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity com.betpawa.wallet.server.model.Account [READ]: select account0_.id as id1_0_0_, account0_.balance as balance2_0_0_, account0_.currency_code as currency3_0_0_, account0_.user_id as user_id4_0_0_, account0_.version as version5_0_0_ from account account0_ where account0_.id=?
+00:46:39.155 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity com.betpawa.wallet.server.model.Account: select account0_.id as id1_0_0_, account0_.balance as balance2_0_0_, account0_.currency_code as currency3_0_0_, account0_.user_id as user_id4_0_0_, account0_.version as version5_0_0_ from account account0_ where account0_.id=?
+00:46:39.156 [Test worker] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity com.betpawa.wallet.server.model.Account: select account0_.id as id1_0_0_, account0_.balance as balance2_0_0_, account0_.currency_code as currency3_0_0_, account0_.user_id as user_id4_0_0_, account0_.version as version5_0_0_ from account account0_ where account0_.id=?
+00:46:39.193 [Test worker] DEBUG o.h.t.s.s.SchemaManagementToolCoordinator - No actions specified; doing nothing
+00:46:39.194 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+00:46:39.196 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+00:46:39.208 [Test worker] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+00:46:39.210 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking 3 named HQL queries
+00:46:39.210 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking named query: Account.deleteByUserId
+00:46:39.220 [Test worker] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@fd10a33
+00:46:39.221 [Test worker] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+00:46:39.250 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: DELETE FROM com.betpawa.wallet.server.model.Account a WHERE a.userId = :userId
+00:46:39.258 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.265 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[DELETE] Node: 'DELETE'
+    +-[FROM] Node: 'FROM'
+    |  \-[RANGE] Node: 'RANGE'
+    |     +-[DOT] Node: '.'
+    |     |  +-[DOT] Node: '.'
+    |     |  |  +-[DOT] Node: '.'
+    |     |  |  |  +-[DOT] Node: '.'
+    |     |  |  |  |  +-[DOT] Node: '.'
+    |     |  |  |  |  |  +-[IDENT] Node: 'com'
+    |     |  |  |  |  |  \-[IDENT] Node: 'betpawa'
+    |     |  |  |  |  \-[IDENT] Node: 'wallet'
+    |     |  |  |  \-[IDENT] Node: 'server'
+    |     |  |  \-[IDENT] Node: 'model'
+    |     |  \-[IDENT] Node: 'Account'
+    |     \-[ALIAS] Node: 'a'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'a'
+          |  \-[IDENT] Node: 'userId'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'userId'
+
+00:46:39.299 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - delete &lt;&lt; begin [level=1, statement=delete]
+00:46:39.315 [Test worker] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : com.betpawa.wallet.server.model.Account (a) -&gt; account0_
+00:46:39.317 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a -&gt; id
+00:46:39.319 [Test worker] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : userId -&gt; org.hibernate.type.LongType@475d4ac0
+00:46:39.321 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a.userId -&gt; user_id
+00:46:39.324 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - delete : finishing up [level=1, statement=delete]
+00:46:39.326 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - delete &gt;&gt; end [level=1, statement=delete]
+00:46:39.333 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[DELETE] DeleteStatement: 'DELETE'  querySpaces (account)
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[a], fromElementByTableAlias=[account0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'account' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=a,role=null,tableName=account,tableAlias=account0_,origin=null,columns={,className=com.betpawa.wallet.server.model.Account}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user_id' {propertyName=userId,dereferenceType=PRIMITIVE,getPropertyPath=userId,path=a.userId,tableAlias=account0_,className=com.betpawa.wallet.server.model.Account,classAlias=a}
+          |  +-[ALIAS_REF] IdentNode: 'id' {alias=a, className=com.betpawa.wallet.server.model.Account, tableAlias=account0_}
+          |  \-[IDENT] IdentNode: 'userId' {originalText=userId}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=userId, expectedType=org.hibernate.type.LongType@475d4ac0}
+
+00:46:39.340 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.355 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.361 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking named query: Account.findAllByUserIdAndCurrency
+00:46:39.362 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: SELECT a FROM com.betpawa.wallet.server.model.Account a WHERE a.userId = :userId AND a.currencyCode = :currencyCode
+00:46:39.363 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.365 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  |  \-[IDENT] Node: 'betpawa'
+    |  |     |  |  |  |  \-[IDENT] Node: 'wallet'
+    |  |     |  |  |  \-[IDENT] Node: 'server'
+    |  |     |  |  \-[IDENT] Node: 'model'
+    |  |     |  \-[IDENT] Node: 'Account'
+    |  |     \-[ALIAS] Node: 'a'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'a'
+    \-[WHERE] Node: 'WHERE'
+       \-[AND] Node: 'AND'
+          +-[EQ] Node: '='
+          |  +-[DOT] Node: '.'
+          |  |  +-[IDENT] Node: 'a'
+          |  |  \-[IDENT] Node: 'userId'
+          |  \-[COLON] Node: ':'
+          |     \-[IDENT] Node: 'userId'
+          \-[EQ] Node: '='
+             +-[DOT] Node: '.'
+             |  +-[IDENT] Node: 'a'
+             |  \-[IDENT] Node: 'currencyCode'
+             \-[COLON] Node: ':'
+                \-[IDENT] Node: 'currencyCode'
+
+00:46:39.369 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select &lt;&lt; begin [level=1, statement=select]
+00:46:39.370 [Test worker] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : com.betpawa.wallet.server.model.Account (a) -&gt; account0_
+00:46:39.371 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a -&gt; account0_.id
+00:46:39.373 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a -&gt; account0_.id
+00:46:39.373 [Test worker] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : userId -&gt; org.hibernate.type.LongType@475d4ac0
+00:46:39.373 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a.userId -&gt; account0_.user_id
+00:46:39.374 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a -&gt; account0_.id
+00:46:39.374 [Test worker] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : currencyCode -&gt; org.hibernate.type.StringType@66438916
+00:46:39.374 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a.currencyCode -&gt; account0_.currency_code
+00:46:39.375 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+00:46:39.376 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} account0_.id ) ( FromClause{level=1} account account0_ ) ( WHERE ( AND ( = ( account0_.user_id account0_.id userId ) ? ) ( = ( account0_.currency_code account0_.id currencyCode ) ? ) ) ) )
+00:46:39.387 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [account account0_]
+00:46:39.388 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select &gt;&gt; end [level=1, statement=select]
+00:46:39.388 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (account)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'account0_.id as id1_0_' {alias=a, className=com.betpawa.wallet.server.model.Account, tableAlias=account0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[a], fromElementByTableAlias=[account0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'account account0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=a,role=null,tableName=account,tableAlias=account0_,origin=null,columns={,className=com.betpawa.wallet.server.model.Account}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[AND] SqlNode: 'AND'
+          +-[EQ] BinaryLogicOperatorNode: '='
+          |  +-[DOT] DotNode: 'account0_.user_id' {propertyName=userId,dereferenceType=PRIMITIVE,getPropertyPath=userId,path=a.userId,tableAlias=account0_,className=com.betpawa.wallet.server.model.Account,classAlias=a}
+          |  |  +-[ALIAS_REF] IdentNode: 'account0_.id' {alias=a, className=com.betpawa.wallet.server.model.Account, tableAlias=account0_}
+          |  |  \-[IDENT] IdentNode: 'userId' {originalText=userId}
+          |  \-[NAMED_PARAM] ParameterNode: '?' {name=userId, expectedType=org.hibernate.type.LongType@475d4ac0}
+          \-[EQ] BinaryLogicOperatorNode: '='
+             +-[DOT] DotNode: 'account0_.currency_code' {propertyName=currencyCode,dereferenceType=PRIMITIVE,getPropertyPath=currencyCode,path=a.currencyCode,tableAlias=account0_,className=com.betpawa.wallet.server.model.Account,classAlias=a}
+             |  +-[ALIAS_REF] IdentNode: 'account0_.id' {alias=a, className=com.betpawa.wallet.server.model.Account, tableAlias=account0_}
+             |  \-[IDENT] IdentNode: 'currencyCode' {originalText=currencyCode}
+             \-[NAMED_PARAM] ParameterNode: '?' {name=currencyCode, expectedType=org.hibernate.type.StringType@66438916}
+
+00:46:39.389 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.390 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: SELECT a FROM com.betpawa.wallet.server.model.Account a WHERE a.userId = :userId AND a.currencyCode = :currencyCode
+00:46:39.390 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=?
+00:46:39.390 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.393 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking named query: Account.findAllByUserId
+00:46:39.393 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: SELECT a FROM com.betpawa.wallet.server.model.Account a WHERE a.userId = :userId
+00:46:39.394 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.395 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'FROM'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  |  \-[IDENT] Node: 'betpawa'
+    |  |     |  |  |  |  \-[IDENT] Node: 'wallet'
+    |  |     |  |  |  \-[IDENT] Node: 'server'
+    |  |     |  |  \-[IDENT] Node: 'model'
+    |  |     |  \-[IDENT] Node: 'Account'
+    |  |     \-[ALIAS] Node: 'a'
+    |  \-[SELECT] Node: 'SELECT'
+    |     \-[IDENT] Node: 'a'
+    \-[WHERE] Node: 'WHERE'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'a'
+          |  \-[IDENT] Node: 'userId'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'userId'
+
+00:46:39.397 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select &lt;&lt; begin [level=1, statement=select]
+00:46:39.398 [Test worker] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : com.betpawa.wallet.server.model.Account (a) -&gt; account0_
+00:46:39.399 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a -&gt; account0_.id
+00:46:39.399 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a -&gt; account0_.id
+00:46:39.400 [Test worker] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : userId -&gt; org.hibernate.type.LongType@475d4ac0
+00:46:39.400 [Test worker] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : a.userId -&gt; account0_.user_id
+00:46:39.401 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+00:46:39.401 [Test worker] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} account0_.id ) ( FromClause{level=1} account account0_ ) ( WHERE ( = ( account0_.user_id account0_.id userId ) ? ) ) )
+00:46:39.402 [Test worker] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [account account0_]
+00:46:39.402 [Test worker] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select &gt;&gt; end [level=1, statement=select]
+00:46:39.404 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (account)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'account0_.id as id1_0_' {alias=a, className=com.betpawa.wallet.server.model.Account, tableAlias=account0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_'
+    +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[a], fromElementByTableAlias=[account0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'account account0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=a,role=null,tableName=account,tableAlias=account0_,origin=null,columns={,className=com.betpawa.wallet.server.model.Account}}
+    \-[WHERE] SqlNode: 'WHERE'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'account0_.user_id' {propertyName=userId,dereferenceType=PRIMITIVE,getPropertyPath=userId,path=a.userId,tableAlias=account0_,className=com.betpawa.wallet.server.model.Account,classAlias=a}
+          |  +-[ALIAS_REF] IdentNode: 'account0_.id' {alias=a, className=com.betpawa.wallet.server.model.Account, tableAlias=account0_}
+          |  \-[IDENT] IdentNode: 'userId' {originalText=userId}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=userId, expectedType=org.hibernate.type.LongType@475d4ac0}
+
+00:46:39.404 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.404 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: SELECT a FROM com.betpawa.wallet.server.model.Account a WHERE a.userId = :userId
+00:46:39.404 [Test worker] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=?
+00:46:39.404 [Test worker] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors
+00:46:39.404 [Test worker] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+00:46:39.406 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7738eca8
+00:46:39.408 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: e6d01841-b0a7-4de1-b590-8236ad1532d6 (&lt;unnamed&gt;)
+00:46:39.408 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+00:46:39.496 [Test worker] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+00:46:39.506 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:39.506 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:39.508 [Test worker] DEBUG o.h.e.i.DefaultMergeEventListener - EntityCopyObserver strategy: disallow
+00:46:39.583 [Test worker] DEBUG org.hibernate.SQL - select nextval ('seq_id')
+00:46:39.597 [Test worker] DEBUG o.h.id.enhanced.SequenceStructure - Sequence value obtained: 6
+00:46:39.597 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+00:46:39.599 [Test worker] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: -43, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+00:46:39.610 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+00:46:39.611 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+00:46:39.612 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+00:46:39.616 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+00:46:39.616 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+00:46:39.618 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+00:46:39.619 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=0, id=-43, currencyCode=USD, userId=1, version=0}
+00:46:39.629 [Test worker] DEBUG org.hibernate.SQL - insert into account (balance, currency_code, user_id, version, id) values (?, ?, ?, ?, ?)
+00:46:39.634 [Test worker] DEBUG o.h.e.j.batch.internal.BatchingBatch - Executing batch size: 1
+00:46:39.646 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.647 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.647 [Test worker] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+00:46:39.650 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:39.650 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:39.650 [Test worker] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: -42, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+00:46:39.650 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+00:46:39.650 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+00:46:39.651 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+00:46:39.651 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+00:46:39.651 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+00:46:39.651 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+00:46:39.651 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=0, id=-42, currencyCode=EUR, userId=1, version=0}
+00:46:39.651 [Test worker] DEBUG org.hibernate.SQL - insert into account (balance, currency_code, user_id, version, id) values (?, ?, ?, ?, ?)
+00:46:39.652 [Test worker] DEBUG o.h.e.j.batch.internal.BatchingBatch - Executing batch size: 1
+00:46:39.655 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.655 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.656 [Test worker] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+00:46:39.656 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:39.656 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:39.656 [Test worker] DEBUG o.h.e.i.AbstractSaveEventListener - Generated identifier: -41, using strategy: org.hibernate.id.enhanced.SequenceStyleGenerator
+00:46:39.657 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+00:46:39.657 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+00:46:39.657 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+00:46:39.657 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+00:46:39.657 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+00:46:39.657 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+00:46:39.658 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=0, id=-41, currencyCode=GBP, userId=1, version=0}
+00:46:39.658 [Test worker] DEBUG org.hibernate.SQL - insert into account (balance, currency_code, user_id, version, id) values (?, ?, ?, ?, ?)
+00:46:39.659 [Test worker] DEBUG o.h.e.j.batch.internal.BatchingBatch - Executing batch size: 1
+00:46:39.671 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.672 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.672 [Test worker] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+00:46:39.828 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=? limit ?
+00:46:39.834 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:39.836 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:39.841 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-43]
+00:46:39.841 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-43]
+00:46:39.843 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.845 [Test worker] DEBUG c.b.w.server.service.WalletService - Withdraw service: delta -200.0 Account ID = -43
+00:46:39.845 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:39.845 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:39.850 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+00:46:39.850 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.851 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.851 [Test worker] ERROR c.b.wallet.server.dao.AccountDAOImpl - Not enough funds on Account{userId=1, currencyCode=USD, balance=0.00}
+00:46:39.853 [Test worker] ERROR c.b.w.server.service.WalletService - Not enough funds on Account{userId=1, currencyCode=USD, balance=0.00}
+com.betpawa.wallet.server.exception.InsufficientFundsException: Not enough funds on Account{userId=1, currencyCode=USD, balance=0.00}
+	at com.betpawa.wallet.server.dao.AccountDAOImpl.updateAccountBalance(AccountDAOImpl.java:174) ~[main/:na]
+	at com.betpawa.wallet.server.service.WalletService.withdraw(WalletService.java:111) ~[main/:na]
+	at com.betpawa.wallet.WalletServiceGrpc$MethodHandlers.invoke(WalletServiceGrpc.java:353) [Betpawa-Wallet-Proto-1.0.jar:na]
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:710) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:721) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:634) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:283) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:189) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:127) [grpc-stub-1.16.1.jar:1.16.1]
+	at com.betpawa.wallet.WalletServiceGrpc$WalletServiceBlockingStub.withdraw(WalletServiceGrpc.java:272) [Betpawa-Wallet-Proto-1.0.jar:na]
+	at com.betpawa.wallet.server.service.WalletServiceTest.testScenario1(WalletServiceTest.java:41) [test/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125) [grpc-testing-1.16.1.jar:1.16.1]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.10.2.jar:4.10.2]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_66]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_66]
+00:46:39.873 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=? limit ?
+00:46:39.874 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:39.875 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:39.875 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-43]
+00:46:39.875 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-43]
+00:46:39.875 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.876 [Test worker] DEBUG c.b.w.server.service.WalletService - Deposit service: amount 100.0 Account ID = -43
+00:46:39.877 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:39.877 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:39.877 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+00:46:39.877 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+00:46:39.877 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+00:46:39.879 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+00:46:39.879 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+00:46:39.879 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+00:46:39.879 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=100.00, id=-43, currencyCode=USD, userId=1, version=0}
+00:46:39.880 [Test worker] DEBUG org.hibernate.SQL - update account set balance=?, currency_code=?, user_id=?, version=? where id=? and version=?
+00:46:39.883 [Test worker] DEBUG o.h.e.j.batch.internal.BatchingBatch - Executing batch size: 1
+00:46:39.885 [Test worker] DEBUG org.hibernate.SQL - select version from account where id =?
+00:46:39.886 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+00:46:39.887 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.888 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.888 [Test worker] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+00:46:39.892 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=?
+00:46:39.894 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:39.894 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-42]
+00:46:39.895 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+00:46:39.895 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-41]
+00:46:39.895 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+00:46:39.895 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:39.895 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-42]
+00:46:39.895 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-42]
+00:46:39.895 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-41]
+00:46:39.895 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-41]
+00:46:39.895 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-43]
+00:46:39.896 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-43]
+00:46:39.896 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.994 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=? limit ?
+00:46:39.995 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:39.996 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:39.996 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.997 [Test worker] DEBUG c.b.w.server.service.WalletService - Withdraw service: delta -200.0 Account ID = -43
+00:46:39.997 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:39.997 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:39.998 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+00:46:39.998 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.998 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:39.998 [Test worker] ERROR c.b.wallet.server.dao.AccountDAOImpl - Not enough funds on Account{userId=1, currencyCode=USD, balance=100.00}
+00:46:40.000 [Test worker] ERROR c.b.w.server.service.WalletService - Not enough funds on Account{userId=1, currencyCode=USD, balance=100.00}
+com.betpawa.wallet.server.exception.InsufficientFundsException: Not enough funds on Account{userId=1, currencyCode=USD, balance=100.00}
+	at com.betpawa.wallet.server.dao.AccountDAOImpl.updateAccountBalance(AccountDAOImpl.java:174) ~[main/:na]
+	at com.betpawa.wallet.server.service.WalletService.withdraw(WalletService.java:111) ~[main/:na]
+	at com.betpawa.wallet.WalletServiceGrpc$MethodHandlers.invoke(WalletServiceGrpc.java:353) [Betpawa-Wallet-Proto-1.0.jar:na]
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:710) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:721) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:634) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:283) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:189) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:127) [grpc-stub-1.16.1.jar:1.16.1]
+	at com.betpawa.wallet.WalletServiceGrpc$WalletServiceBlockingStub.withdraw(WalletServiceGrpc.java:272) [Betpawa-Wallet-Proto-1.0.jar:na]
+	at com.betpawa.wallet.server.service.WalletServiceTest.testScenario3(WalletServiceTest.java:83) [test/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125) [grpc-testing-1.16.1.jar:1.16.1]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.10.2.jar:4.10.2]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_66]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_66]
+00:46:40.003 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=? limit ?
+00:46:40.005 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:40.006 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-42]
+00:46:40.006 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-42]
+00:46:40.006 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-42]
+00:46:40.006 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.007 [Test worker] DEBUG c.b.w.server.service.WalletService - Deposit service: amount 100.0 Account ID = -42
+00:46:40.007 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:40.007 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:40.008 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+00:46:40.008 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+00:46:40.008 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+00:46:40.008 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+00:46:40.008 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+00:46:40.009 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+00:46:40.009 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=100.00, id=-42, currencyCode=EUR, userId=1, version=0}
+00:46:40.009 [Test worker] DEBUG org.hibernate.SQL - update account set balance=?, currency_code=?, user_id=?, version=? where id=? and version=?
+00:46:40.009 [Test worker] DEBUG o.h.e.j.batch.internal.BatchingBatch - Executing batch size: 1
+00:46:40.010 [Test worker] DEBUG org.hibernate.SQL - select version from account where id =?
+00:46:40.011 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+00:46:40.013 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.013 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.013 [Test worker] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+00:46:40.014 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=?
+00:46:40.016 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:40.016 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-41]
+00:46:40.016 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+00:46:40.016 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:40.017 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+00:46:40.017 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-42]
+00:46:40.017 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-41]
+00:46:40.017 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-41]
+00:46:40.017 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-43]
+00:46:40.017 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-43]
+00:46:40.017 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-42]
+00:46:40.017 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-42]
+00:46:40.018 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.020 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=? limit ?
+00:46:40.021 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:40.021 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:40.022 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.022 [Test worker] DEBUG c.b.w.server.service.WalletService - Withdraw service: delta -200.0 Account ID = -43
+00:46:40.023 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:40.023 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:40.023 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+00:46:40.023 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.024 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.024 [Test worker] ERROR c.b.wallet.server.dao.AccountDAOImpl - Not enough funds on Account{userId=1, currencyCode=USD, balance=100.00}
+00:46:40.026 [Test worker] ERROR c.b.w.server.service.WalletService - Not enough funds on Account{userId=1, currencyCode=USD, balance=100.00}
+com.betpawa.wallet.server.exception.InsufficientFundsException: Not enough funds on Account{userId=1, currencyCode=USD, balance=100.00}
+	at com.betpawa.wallet.server.dao.AccountDAOImpl.updateAccountBalance(AccountDAOImpl.java:174) ~[main/:na]
+	at com.betpawa.wallet.server.service.WalletService.withdraw(WalletService.java:111) ~[main/:na]
+	at com.betpawa.wallet.WalletServiceGrpc$MethodHandlers.invoke(WalletServiceGrpc.java:353) [Betpawa-Wallet-Proto-1.0.jar:na]
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:710) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:721) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:634) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:283) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:189) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:127) [grpc-stub-1.16.1.jar:1.16.1]
+	at com.betpawa.wallet.WalletServiceGrpc$WalletServiceBlockingStub.withdraw(WalletServiceGrpc.java:272) [Betpawa-Wallet-Proto-1.0.jar:na]
+	at com.betpawa.wallet.server.service.WalletServiceTest.testScenario5(WalletServiceTest.java:125) [test/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125) [grpc-testing-1.16.1.jar:1.16.1]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.10.2.jar:4.10.2]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_66]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_66]
+00:46:40.028 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=? limit ?
+00:46:40.031 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:40.031 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:40.032 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-43]
+00:46:40.032 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-43]
+00:46:40.032 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.033 [Test worker] DEBUG c.b.w.server.service.WalletService - Deposit service: amount 100.0 Account ID = -43
+00:46:40.033 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:40.033 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:40.034 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+00:46:40.034 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+00:46:40.034 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+00:46:40.034 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+00:46:40.034 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+00:46:40.034 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+00:46:40.035 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=200.00, id=-43, currencyCode=USD, userId=1, version=1}
+00:46:40.035 [Test worker] DEBUG org.hibernate.SQL - update account set balance=?, currency_code=?, user_id=?, version=? where id=? and version=?
+00:46:40.035 [Test worker] DEBUG o.h.e.j.batch.internal.BatchingBatch - Executing batch size: 1
+00:46:40.037 [Test worker] DEBUG org.hibernate.SQL - select version from account where id =?
+00:46:40.039 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+00:46:40.040 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.040 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.041 [Test worker] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+00:46:40.042 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=?
+00:46:40.043 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:40.044 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-41]
+00:46:40.044 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+00:46:40.044 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-42]
+00:46:40.045 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+00:46:40.045 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:40.045 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-41]
+00:46:40.045 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-41]
+00:46:40.046 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-42]
+00:46:40.046 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-42]
+00:46:40.046 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-43]
+00:46:40.046 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-43]
+00:46:40.046 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.049 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=? limit ?
+00:46:40.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:40.050 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:40.050 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.051 [Test worker] DEBUG c.b.w.server.service.WalletService - Withdraw service: delta -200.0 Account ID = -43
+00:46:40.052 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:40.052 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:40.052 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+00:46:40.052 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+00:46:40.052 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+00:46:40.053 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 1 updates, 0 deletions to 3 objects
+00:46:40.053 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+00:46:40.053 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+00:46:40.053 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=0.00, id=-43, currencyCode=USD, userId=1, version=2}
+00:46:40.053 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=100.00, id=-42, currencyCode=EUR, userId=1, version=1}
+00:46:40.054 [Test worker] DEBUG o.h.internal.util.EntityPrinter - com.betpawa.wallet.server.model.Account{balance=0.00, id=-41, currencyCode=GBP, userId=1, version=0}
+00:46:40.054 [Test worker] DEBUG org.hibernate.SQL - update account set balance=?, currency_code=?, user_id=?, version=? where id=? and version=?
+00:46:40.054 [Test worker] DEBUG o.h.e.j.batch.internal.BatchingBatch - Executing batch size: 1
+00:46:40.055 [Test worker] DEBUG org.hibernate.SQL - select version from account where id =?
+00:46:40.057 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+00:46:40.058 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.058 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.059 [Test worker] DEBUG o.h.e.j.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+00:46:40.060 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=?
+00:46:40.062 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:40.062 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-41]
+00:46:40.062 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 1
+00:46:40.062 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-42]
+00:46:40.063 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 2
+00:46:40.063 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:40.063 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-41]
+00:46:40.063 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-41]
+00:46:40.063 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-42]
+00:46:40.063 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-42]
+00:46:40.063 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [com.betpawa.wallet.server.model.Account#-43]
+00:46:40.064 [Test worker] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [com.betpawa.wallet.server.model.Account#-43]
+00:46:40.064 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.066 [Test worker] DEBUG org.hibernate.SQL - select account0_.id as id1_0_, account0_.balance as balance2_0_, account0_.currency_code as currency3_0_, account0_.user_id as user_id4_0_, account0_.version as version5_0_ from account account0_ where account0_.user_id=? and account0_.currency_code=? limit ?
+00:46:40.068 [Test worker] DEBUG org.hibernate.loader.Loader - Result set row: 0
+00:46:40.068 [Test worker] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[com.betpawa.wallet.server.model.Account#-43]
+00:46:40.068 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.069 [Test worker] DEBUG c.b.w.server.service.WalletService - Withdraw service: delta -200.0 Account ID = -43
+00:46:40.069 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:40.069 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:40.069 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - rolling back
+00:46:40.069 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.069 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.069 [Test worker] ERROR c.b.wallet.server.dao.AccountDAOImpl - Not enough funds on Account{userId=1, currencyCode=USD, balance=0.00}
+00:46:40.071 [Test worker] ERROR c.b.w.server.service.WalletService - Not enough funds on Account{userId=1, currencyCode=USD, balance=0.00}
+com.betpawa.wallet.server.exception.InsufficientFundsException: Not enough funds on Account{userId=1, currencyCode=USD, balance=0.00}
+	at com.betpawa.wallet.server.dao.AccountDAOImpl.updateAccountBalance(AccountDAOImpl.java:174) ~[main/:na]
+	at com.betpawa.wallet.server.service.WalletService.withdraw(WalletService.java:111) ~[main/:na]
+	at com.betpawa.wallet.WalletServiceGrpc$MethodHandlers.invoke(WalletServiceGrpc.java:353) [Betpawa-Wallet-Proto-1.0.jar:na]
+	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:171) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:283) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:710) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.SerializeReentrantCallsDirectExecutor.execute(SerializeReentrantCallsDirectExecutor.java:49) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener.halfClosed(ServerImpl.java:721) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessClientStream.halfClose(InProcessTransport.java:634) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ForwardingClientStream.halfClose(ForwardingClientStream.java:67) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.internal.ClientCallImpl.halfClose(ClientCallImpl.java:408) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.PartialForwardingClientCall.halfClose(PartialForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall.halfClose(ForwardingClientCall.java:22) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.ForwardingClientCall$SimpleForwardingClientCall.halfClose(ForwardingClientCall.java:44) [grpc-core-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.asyncUnaryRequestCall(ClientCalls.java:283) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.futureUnaryCall(ClientCalls.java:189) [grpc-stub-1.16.1.jar:1.16.1]
+	at io.grpc.stub.ClientCalls.blockingUnaryCall(ClientCalls.java:127) [grpc-stub-1.16.1.jar:1.16.1]
+	at com.betpawa.wallet.WalletServiceGrpc$WalletServiceBlockingStub.withdraw(WalletServiceGrpc.java:272) [Betpawa-Wallet-Proto-1.0.jar:na]
+	at com.betpawa.wallet.server.service.WalletServiceTest.testScenario8(WalletServiceTest.java:194) [test/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27) [junit-4.12.jar:4.12]
+	at io.grpc.testing.GrpcCleanupRule$1.evaluate(GrpcCleanupRule.java:125) [grpc-testing-1.16.1.jar:1.16.1]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.10.2.jar:4.10.2]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.10.2.jar:4.10.2]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [na:na]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117) [gradle-testing-base-4.10.2.jar:4.10.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_66]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_66]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_66]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_66]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.10.2.jar:4.10.2]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_66]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.10.2.jar:4.10.2]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_66]
+00:46:40.073 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+00:46:40.073 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+00:46:40.076 [Test worker] DEBUG org.hibernate.SQL - delete from account where user_id=?
+00:46:40.078 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+00:46:40.079 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+00:46:40.079 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+3 Accounts for User 1 were deleted
+00:46:40.080 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - HHH000031: Closing
+00:46:40.080 [Test worker] DEBUG o.h.type.spi.TypeConfiguration$Scope - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@767c8bac] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@1f539ce2]
+00:46:40.081 [Test worker] DEBUG o.h.s.i.AbstractServiceRegistryImpl - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+00:46:40.083 [Test worker] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Apr 12, 2019 12:46:36 AM com.mchange.v2.log.MLog &lt;clinit&gt;
+INFO: MLog clients using java 1.4+ standard logging.
+Apr 12, 2019 12:46:36 AM com.mchange.v2.c3p0.C3P0Registry banner
+INFO: Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+Apr 12, 2019 12:46:36 AM com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+INFO: Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@c3cfb33a [ connectionPoolDataSource -&gt; com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@c1f000ff [ acquireIncrement -&gt; 3, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, debugUnreturnedConnectionStackTraces -&gt; false, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, identityToken -&gt; 2zzpr2a23u5bdg1x0nape|2c3317eb, idleConnectionTestPeriod -&gt; 3000, initialPoolSize -&gt; 5, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 300, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 20, maxStatements -&gt; 50, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 5, nestedDataSource -&gt; com.mchange.v2.c3p0.DriverManagerDataSource@4789cbaa [ description -&gt; null, driverClass -&gt; null, factoryClassLocation -&gt; null, identityToken -&gt; 2zzpr2a23u5bdg1x0nape|330f17e2, jdbcUrl -&gt; jdbc:postgresql://localhost:5432/wallet, properties -&gt; {user=******, password=******} ], preferredTestQuery -&gt; null, propertyCycle -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, usesTraditionalReflectiveProxies -&gt; false; userOverrides: {} ], dataSourceName -&gt; null, factoryClassLocation -&gt; null, identityToken -&gt; 2zzpr2a23u5bdg1x0nape|7fed6e84, numHelperThreads -&gt; 3 ]
+*** close Database Connections
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at Apr 12, 2019 12:46:40 AM</p>
+</div>
+</div>
+</body>
+</html>
